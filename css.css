@@ -1,0 +1,234 @@
+body
+{
+	background-image:url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align:center;
+}
+
+header
+{
+	background-size: cover;
+	width: 99,6%;
+	height: 120px;
+	top:0px;
+}
+
+h1
+{
+	color:black;
+	width: 100%;
+	font-size: 60px;
+	font-family:"aileron";
+}
+
+
+nav
+{
+	z-index:20;
+}
+
+#menu
+{
+	width: 99.9%;
+}
+#menu.floatable
+{
+	position: fixed;
+	top: 0px;
+	width: 98.72%;
+}
+
+.button
+{
+	background-color: lightgrey;
+	border: darkgrey 3px outset;
+	display: inline-block;
+	padding: 15px 32px;
+	width: 25%;
+	box-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+	float: left;
+	color: black;
+	font-weight:bold;
+	text-align: center;
+	font-size: 20px;
+	font-family:"orkney";
+	cursor: pointer;
+}
+
+.button:hover
+{
+	background-color: white;
+}
+
+.button:focus
+{
+	border: darkgrey 3px inset;
+	background-color: darkgrey;
+}
+
+section
+{
+	background-color: rgba(154,205,50,0.75);
+ 	margin-top: 7%;
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 55%;
+	color:black;
+	font-size:x-large;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index:10;
+}
+
+section.section2
+{
+	background-color: rgba(154,205,50,0.75);
+ 	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+ 	width: 55%;
+	color:black;
+	font-size:x-large;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index:10;
+}
+
+h2
+{
+	color:black;
+	width:100%;
+	font-family:"orkney";
+}
+
+h3
+{
+	color:black;
+	width:100%;
+	font-size:30px;
+	font-family:"volkorn";
+}
+
+p
+{
+	color:black;
+	text-align:justify;
+	font-family: "orkney"
+}
+
+img.imgR
+{
+	margin:20px;
+	margin-right: 0px;
+	margin-top: 20px;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+}
+
+img.imgL
+{
+	margin:20px;
+	margin-left:0px;
+	margin-top: 0px;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+}
+
+img.imgC
+{
+	margin:20px;
+	margin-top: 0px;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+}
+
+
+img.imgM
+{
+	margin:30px;
+	margin-top: 30px;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+}
+
+script.java
+{
+	display: none;
+}
+
+table.T
+{
+	font-size: x-large;
+	text-align: justify;
+}
+
+td
+{
+	font-size: 20px;
+	font-family: comic sans ms;
+}
+
+iframe
+{
+  	width:100%;
+	height: 70%;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+}
+
+footer
+{
+	margin-top: 20px;
+	background-image:url('images/footer.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 197px 68px;
+	z-index:10;
+}
+.button2
+{
+	background: transparent;
+	padding: 20 30;
+	display: inline-block;
+	float: center;
+	font-weight:bold;
+	box-shadow: 8px 8px 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	font-family:"orkney";
+	z-index:20;
+}
+
+.button2:hover
+{
+	background-color: rgba(255,255,255,0.3);
+	z-index:20;
+}
+
+.button2:focus
+{
+	background-color: rgba(120,120,120,0.3);
+	border: darkgrey 3px inset;
+}
+
+
+@font-face
+{
+	font-family:"aileron";
+	src:url("polices/Ailerons-Regular.otf");
+}
+
+@font-face
+{
+	font-family:"orkney";
+	src:url("polices/Orkney Regular.otf");
+}
+
+@font-face
+{
+	font-family:"volkorn";
+	src:url("polices/Vollkorn-SemiBold.ttf");
+}

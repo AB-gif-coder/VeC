@@ -1,0 +1,65 @@
+<html>
+<head>
+		<meta charset="utf-8" />
+		<meta name="L'auteur" content="ton identité">
+		<link rel="stylesheet" href="css.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<title> Le verre trempé </title>
+</head>
+
+<body>
+
+<header id="debut">
+<h1>Le verre trempé</h1>
+</header>
+
+<nav id="menu">
+  <a href="page1.html"><input class="button" type="button" name="Définition"value="Définition"/></a>
+  <a href="page2.html"><input class="button" type="button" name="Historique"value="Historique"/></a>
+  <a href="page3.html"><input class="button" type="button" name="Mise en oeuvre"value="Mise en oeuvre"/></a>
+  <a href="page4.html"><input class="button" type="button" name="Applications"value="Applications"/></a>
+ <script class="java">
+		var positionElementInPage = $('#menu').offset().top;
+		$(window).scroll(
+			function() {
+				if ($(window).scrollTop() >= positionElementInPage) {
+					$('#menu').addClass("floatable");
+				}
+				else {
+					$('#menu').removeClass("floatable");
+				}
+			}
+		);
+	</script>
+</nav>
+
+<section>
+<h2>Applications</h2>
+<p>
+Il y a de multiples applications du verre trempé. C'est aujourd'hui un verre très répandu dans beaucoup de domaines. On a cité l'achitecture dans l'introduction, mais on peut également citer la téléphonie avec les vitres de protection de téléphone, la décoration intérieure avec des tables et des escaliers en verre trempé ou même plus simplement les portes et les fenêtres qui composent nos maisons. Nous avons pris pour exemple d'utilisation les vitres auto-nettoyantes. 
+</p>  
+<h3>Des vitres auto-nettoyantes</h3>
+<p>
+Inventée à la fin des années 90, la vitre auto-nettoyante fut créée dans le but de réduire la fréquence de nettoyage des verres de fenêtre. Il permet de dissoudre les éléments organiques qui pourraient se poser dessus et éviter les tâches laissées par les gouttes d’eau.<br>
+
+<img class="imgR" src="images/image1.jpg" alt="eur" align=right width=400px>
+<br><br>
+Elles utilisent deux principes :<br> La photocatalyse et l’hydrophilie
+<br><br>
+La photocatalyse permet la dégradation des déchets organiques présents sur la vitre grâce à l’action des rayons ultra-violets à la surface d’un catalyseur, du dioxyde de titane la plupart du temps, présent sur la vitre. Un procédé également utilisé dans l’élimination des odeurs ou la purification de l’air.
+<br><br>
+L’hydrophilie, quant à elle, provoque une répartition uniforme des gouttes d’eau sur la vitre qui permet d’éviter les salissures liées aux gouttes et de nettoyer les résidus de matière organique laissés par la photocatalyse. 
+<br><br>
+L'intervention de l'homme n'est nécessaire que lors de l'installation du verre. La photocatalyse et l'hydrophilie fonctionnent ensuite seules. C’est ce qui explique l’appellation « auto-nettoyante ». Mais en réalité, au bout d’un certain temps un nettoyage manuel devient nécessaire. 
+<br><br>
+<iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/GSmwm-3o0GU?start=6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<br>
+
+
+<footer>
+<a href="#debut"><input class="button2" type="button" name="Haut de page" value="Haut de page"/></a>
+</footer>
+</section>
+</body>
+</html>

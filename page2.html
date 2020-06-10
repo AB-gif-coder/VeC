@@ -1,0 +1,61 @@
+﻿<html>
+<head>
+		<meta charset="utf-8" />
+		<meta name="L'auteur" content="ton identité">
+		<link rel="stylesheet" href="css.css" />
+			<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<title>Le verre trempé</title>
+</head>
+
+<body>
+
+<header id="debut">
+<h1>Le verre trempé</h1>
+</header>
+
+<nav id="menu">
+  <a href="page1.html"><input class="button" type="button" name="Définition"value="Définition"/></a>
+  <a href="page2.html"><input class="button" type="button" name="Historique"value="Historique"/></a>
+  <a href="page3.html"><input class="button" type="button" name="Mise en oeuvre"value="Mise en oeuvre"/></a>
+  <a href="page4.html"><input class="button" type="button" name="Applications"value="Applications"/></a>
+ <script class="java">
+		var positionElementInPage = $('#menu').offset().top;
+		$(window).scroll(
+			function() {
+				if ($(window).scrollTop() >= positionElementInPage) {
+					$('#menu').addClass("floatable");
+				}
+				else {
+					$('#menu').removeClass("floatable");
+				}
+			}
+		);
+	</script>
+</nav>
+
+<section>
+<h2>Histoire du verre</h2>
+</section>
+
+<img class="imgC" src="images/frise_chrono1.jpg" alt="erreur" align=center border=shadow width="1026px">
+
+<section class="section2">
+<img class="imgP" src="images/imageH1.jpg" alt="erreur" align=center border=shadow width="300px">
+<img class="imgP" src="images/imageH2.jpg" alt="erreur" align=center border=shadow width="200px">
+<img class="imgP" src="images/imageH3.jpg" alt="erreur" align=center border=shadow width="300px">
+<br><br><br><br>
+<h2>Verre trempé : Dates et Chiffres<h2>
+</section>
+<img class="imgC" src="images/frise_chrono2.jpg" alt="erreur" align=center border=shadow width="1026px">
+<section class="section2">
+<img class="imgP" src="images/imageH4.jpg" alt="erreur" align=center border=shadow width="300px">
+<img class="imgP" src="images/imageH5.jpg" alt="erreur" align=center border=shadow width="300px">
+<br><br><br>
+
+
+<footer>
+	<a href="#debut"><input class="button2" type="button" name="Haut de page"value="Haut de page"/></a>
+</footer>
+</section>
+</body>
+</html>

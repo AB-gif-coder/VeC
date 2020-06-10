@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+		<meta charset="utf-8" />
+		<meta name="L'auteur" content="ton identité">
+		<link rel="stylesheet" href="css.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<title>Le verre trempé</title>
+</head>
+
+<body>
+
+<header id="debut">
+<h1>Le verre trempé</h1>
+</header>
+
+<nav id="menu">
+  <a href="page1.html"><input class="button" type="button" name="Définition"value="Définition"/></a>
+  <a href="page2.html"><input class="button" type="button" name="Historique"value="Historique"/></a>
+  <a href="page3.html"><input class="button" type="button" name="Mise en oeuvre"value="Mise en oeuvre"/></a>
+  <a href="page4.html"><input class="button" type="button" name="Applications"value="Applications"/></a>
+ <script class="java">
+		var positionElementInPage = $('#menu').offset().top;
+		$(window).scroll(
+			function() {
+				if ($(window).scrollTop() >= positionElementInPage) {
+					$('#menu').addClass("floatable");
+				}
+				else {
+					$('#menu').removeClass("floatable");
+				}
+			}
+		);
+	</script>
+</nav>
+
+<section>
+<h2>Mise en oeuvre</h2>
+<h3>Fabrication du verre classique</h3>
+</section>
+<img class="imgC" src="images/frise.jpg" alt="erreur" align=center border=shadow width="1026px">
+
+<section class="section2">
+<br><br>
+
+<h3>Fabrication du verre trempé</h3>
+<p>La trempe du verre lui conférera des propriétés mécaniques supplémentaires, en particulier l’amélioration de sa résistance. Il existe 2 types de verres trempés : thermiquement et chimiquement.
+<br><br><br>
+<table class="T" width="100%" cellspacing="30px"><tr>
+	<td width="45%">La trempe thermique consiste à chauffer le verre autour de son point de ramollissement (environ 620°C) puis à le refroidir brusquement. Cela va créer des contraintes tension/compression entre l’intérieur et l’extérieur du verre.<br>
+		<img class="imgM" src="images/imageM3.jpg" alt="erreur"  border=shadow width="300px"></td>
+	<td width="0.5%" bgcolor="black"></td><td width="45%">Pour la trempe chimique, l’opération est différente : on soude 2 couches de verre à haute température, chacune ayant un coefficient de dilatation différent. En refroidissant, les couches se contractent plus ou moins ce qui crée des contraintes tension/compression entre les 2 surfaces, de la même manière que pour la trempe thermique.<br>
+		<img class="imgM" src="images/imageM4.jpg" alt="erreur" border=shadow width="300px"><br><br></td></tr></table>
+
+
+<br>
+La trempe chimique est plus efficace et également plus coûteuse que la trempe thermique. Quelle que soit la méthode utilisée, le verre trempé est beaucoup plus résistant aux chocs, et il est impossible de le retravailler.
+<br><br><br>
+<img class="imgL" src="images/imageM5.jpg" alt="erreur" align=left width=230px border=shadow>
+On retrouve ce principe avec les « larmes de verre » : elles sont fabriquées en laissant tomber des gouttes de verre fondu dans de l’eau froide. Les tensions sont importantes à l’intérieur de la « larme », car la couche extérieure a refroidi en 1er et s’est donc comprimée vers l’intérieur. En conséquence, la partie épaisse de la structure sera extrêmement résistante aux chocs, tandis qu’il suffira de casser la « queue » pour que toute la structure éclate d’un coup.
+La structure est neutre car les forces internes s’opposent parfaitement, mais le moindre déséquilibre suffit à la détruire.
+<br><br>
+</p>
+<br>
+
+
+
+<footer>
+	<a href="#debut"><input class="button2" type="button" name="Haut de page"value="Haut de page"/></a>
+</footer>
+</section>
+</body>
+</html>
